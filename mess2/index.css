@@ -1,0 +1,421 @@
+.top{background-image: url(images/image1.jpg);
+		  background-size: contain;
+	 	  height: 100vh;
+	 	  width: 100%;}
+
+.navigation{background-color: white;
+	 height: 10vh;
+	 width: 100%;
+	 top: 0;
+	 position: fixed;}
+
+.logo{margin: 0;
+	  border: 0px solid black;
+	  font-size: 30px;
+	  font-family: Bradley Hand ITC;}
+
+#myDIV{height: 50vh;
+       width: 60%;
+       float: right;
+       text-align: center;
+       padding: 2px;
+       display: none;
+       background-color: #eee;}
+
+.caption{height: 70vh;
+		 width: 80%;
+		 margin: 0 auto;
+		 margin-top: 15vh;
+		 background-color: rgba(0, 0, 0, 0.4);}
+
+.caption p{font-size: 30px;
+		 font-family: Bradley Hand ITC;
+		 color: white;}
+
+.signupbtn{border: 0px solid black;
+		 width:40%;
+		 height: 10vw;
+		 margin: 2% 30%;
+		 border-radius: 8%;
+	     background-color: #f08080;
+	 	 color: white;}
+
+.loginbtn{border: 0px solid black;
+		 width:40%;
+		 height: 10vw;
+		 margin: 2% 30%;
+		 border-radius: 8%;
+		 background-color: #32cd32;
+	 	 color: white;}
+
+#hamburgericon{margin-right: 10px;                      /* SIDE NAVIGATION BLOCK */
+          font-size:30px;                              
+          position:relative;
+          z-index: 3;
+          cursor:pointer;
+          float: right;
+          color: black;}
+
+.sidenav {height: 0;
+          width: 100%;
+          position: fixed;
+          z-index: 4;
+          color: #000;
+          background-color: #fff;
+          background-image: /*url(images/sidenavbackground.png)*/;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 0px;
+          float:right;}
+
+.sidenavls{border: 0px solid white;
+           font-size: 20px;
+           text-align: center;
+           height: 10vw;
+           width: auto;}          
+
+.sidenavls:hover{background-color: #eee;
+                 color: black;}              
+
+.sidenav .closebtn {float: right;
+                    position: absolute;
+                    cursor: pointer;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;}
+
+.menuhd{height:10vh;
+		width: 100%;
+		background-color: #dc143c;
+		font-size: 30px;
+		font-family:  Bradley Hand ITC;
+		color: white;
+		position: fixed;
+	 	top: 0;}
+
+.menucontent{margin-top: 15vh;
+			 width: 100%;
+			 height: 500px;}                    		 
+
+.lunch, .dinner{height: auto;
+				width: 90%;
+				border: 1px solid black;
+				background-color: rgba(0,0,0,0.6);
+				margin: 5vh auto;
+				box-shadow: } 
+
+.lunch center, .dinner center{font-size: 30px;
+							  color: white;}
+
+.lunch img, .dinner img{height: 20%;
+		   width: 20%;
+		   margin: 0 5%;
+		   border: 3px solid white;
+		   border-radius: 50%;}
+
+.lunch span, .dinner span{border: 0px solid black;
+			font-size: 20px;
+			color: white;
+			float: right;
+			margin-right: 5%;}
+
+.lunch p, .dinner p{color: white;
+					font-size: 15px;}
+
+.poll{border: 1px solid black;
+	  height: 7vh;
+	  width: 25%;
+	  color:black;
+	  font-size: 20px;
+	  background-color: white;}
+
+.yes{border: 1px solid black;
+	 height: 7vh;
+	 width: 25%;
+	 color: white;
+	 background-color: pink;}
+
+.plans{width: 100%;
+	   height:auto;
+	   padding: 20px 0;
+	   background-color: lightgrey;}
+
+.plan1, .plan2, .plan3{height:400px;
+	   width:80%;
+	   margin:30px auto;
+	   text-align: center;
+	   font-size: 20px;
+	   color: white;
+	   background-color: #eee;}	
+
+.plan1 p, .plan2 p, .plan3 p{color: black;}
+
+.red{width: 100%;
+	 height: 80px;
+	 background-color:#f08080;}   
+
+.black{width: 100%;
+	 height: 80px;
+	 background-color: black;}   
+
+input{height: 5vh;
+width: 70%;
+font-size: 50px;
+border:2px solid black;
+border-radius: 5%;
+margin: 0 0 10px 0;}
+
+.box{
+	height: auto;
+	width: 80%;
+	font-size: 30px;
+	margin: 90px auto;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 20px 0;}
+
+.box a{color: white;}
+.box h1{color: white;}
+
+.section-footer{border: 1px solid black;
+                color: white;
+                background-color: #333;
+                height: 40vw;
+                width: 100vw;}
+
+#sociallinks{float: right;
+             margin-top: 18vw;
+             height:10vw;
+             width:36vw ;}
+
+#sociallinks img{float: left;
+                 height:10vw ;
+                 width: 10vw;
+                 margin-right: 2vw;}
+
+#down{margin-top: 5vw;
+      margin-left: 2vw;
+      float: left;
+      width: 48vw;} 
+
+#copyright{background-color:#222;
+           padding-top: 1vw;
+           margin-top: 30vw;
+           height: 10vw;
+           width: 100vw;}	
+
+
+@media only screen and (min-width: 600px){
+
+
+.top{}
+
+.navigation{}
+
+.logo{font-size: 50px;
+	  margin-left: 10px;}
+
+.navdesk{border: 0px solid black;
+		 margin-top: 20px;
+		 float: right;}
+
+
+.navdesk span{border: 0px solid black;
+			  font-size: 20px;
+			  margin: 5px;
+			  padding: 10px;}
+
+.navdesk span:hover{background-color: lightgrey;
+					cursor: pointer;}
+
+.caption{height: 80vh;
+		 width: 50%;
+		 margin: 0 auto;
+		 margin-top: 12vh;
+		 background-color: rgba(0, 0, 0, 0.6);}
+
+.caption p{font-size: 60px;
+		 font-family: Bradley Hand ITC;
+		 color: white;}
+
+.signupbtn{border: 0px solid black;
+		 width:30%;
+		 height: 4vw;
+		 margin: 2% 35%;
+		 margin-top: 15%;
+		 border-radius: 8%;
+	     background-color: #f08080;
+	 	 color: white;}
+
+.loginbtn{border: 0px solid black;
+		 width:30%;
+		 height: 4vw;
+		 margin: 2% 35%;
+		 border-radius: 8%;
+		 background-color: #32cd32;
+	 	 color: white;}
+
+#hamburgericon{margin-right: 10px;                      /* SIDE NAVIGATION BLOCK */
+          font-size:30px;                              
+          position:relative;
+          z-index: 3;
+          cursor:pointer;
+          float: right;
+          color: black;}
+
+.sidenav {height: 0;
+          width: 100%;
+          position: fixed;
+          z-index: 4;
+          color: #000;
+          background-color: #fff;
+          background-image: /*url(images/sidenavbackground.png)*/;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 0px;
+          float:right;}
+
+.sidenavls{border: 0px solid white;
+           font-size: 20px;
+           text-align: center;
+           height: 10vw;
+           width: auto;}          
+
+.sidenavls:hover{background-color: #eee;
+                 color: black;}              
+
+.sidenav .closebtn {float: right;
+                    position: absolute;
+                    cursor: pointer;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;}
+
+.menuhd{height:10vh;
+		width: 100%;
+		background-color: #dc143c;
+		font-size: 40px;
+		font-family:  Bradley Hand ITC;
+		color: white;
+		position: fixed;
+	 	top: 0;}
+
+.menucontent{margin-top: 15vh;
+			 width: 100%;
+			 height: 500px;}                    		 
+
+.lunch, .dinner{height: auto;
+				width: 90%;
+				border: 1px solid black;
+				margin: 5vh auto;
+				padding: 2vh 0;
+				box-shadow: } 
+
+.lunch center, .dinner center{font-size: 30px;}
+
+.lunch img, .dinner img{height: 20%;
+		   border: 10px double white;
+		   width: 10%;
+		   margin: 0 15%;
+		   border-radius: 50%;}
+
+.lunch span, .dinner span{border: 0px solid black;
+			font-size: 40px;
+			float: right;
+			margin-right: 15%;}
+
+.lunch p, .dinner p{font-size: 20px;}
+
+.poll{border: 1px solid black;
+	  height: 7vh;
+	  width: 25%;
+	  font-size: 20px;
+	  background-color: white;}
+
+.yes{border: 1px solid black;
+	 height: 7vh;
+	 width: 25%;
+	 background-color: pink;}
+
+.plans{width: 100%;
+	   height:auto;
+	   padding: 20px 0;
+	   background-color: lightgrey;}
+
+.plan1, .plan2, .plan3{height:400px;
+	   width:30%;
+	   float: left;
+	   margin:30px 1.5%;
+	   text-align: center;
+	   font-size: 20px;
+	   color: white;
+	   background-color: #eee;}	
+
+.plan1 p, .plan2 p, .plan3 p{color: black;}
+
+.red{width: 100%;
+	 height: 80px;
+	 padding-top: 4vh;
+	 background-color: #f08080;}   
+
+.black{width: 100%;
+	 height: 80px;
+	 padding-top: 4vh;
+	 background-color: black;}   
+
+input{height: 5vh;
+width: 50%;
+font-size: 20px;
+border:2px solid black;
+border-radius: 5%;
+margin: 0 0 10px 0;}
+
+.box{
+	height: auto;
+	width: 50%;
+	font-size: 20px;
+	margin: 90px auto;
+	border: 5px solid black;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 20px;
+	padding: 20px 0;}
+
+
+.section-footer{border: 1px solid black;
+                color: white;
+                background-color: #333;
+                margin-top: 70vh;
+                padding-top: 5vh;
+                position: absolute;
+                height: 10vw;
+                width: 100vw;}
+
+#sociallinks{float: right;
+             margin-top: 3vw;
+             height:3vw;
+             width:13vw ;}
+
+#sociallinks img{float: left;
+                 height:3vw ;
+                 width: 3vw;
+                 margin-right: 1vw;}
+
+#down{
+      font-size: 1.5vw;
+      margin-top: 0vw;
+      margin-left: 1vw;
+      float: left;
+      width: 48vw;}
+
+#down a{font-size: 1.5vw;}      
+
+#copyright{background-color:#222;
+           padding-top: 0.5vw;
+           margin-top: 7vw;
+           height: 3vw;
+           width: 100vw;}
+
+
+}
